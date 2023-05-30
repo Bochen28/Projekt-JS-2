@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Przelicznik Walut</h1></header>
+
+    <div id="loader">Ładowanie...</div>
+
+    <main>
+      <div class="form">
+        <label id="amountLabel" for="amount">Wprowadź poprawną kwotę</label
+        ><br />
+        <input
+          type="number"
+          id="amount"
+          name="amount"
+          placeholder="Wpisz kwotę"
+        />
+        <select id="currency"></select>
+        <button id="convert">Przelicz</button>
+        <h4>Na złotówki (PLN)</h4>
+        <div class="result">
+          <p id="result">Kwota</p>
+        </div>
+      </div>
+    </main>
+
+    <footer><p>made by Patryk Bochenek</p></footer>
+  </body>
+</html>
