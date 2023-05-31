@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header><h1>Przelicznik Walut</h1></header>
+    <header class="header"><h1>Przelicznik Walut</h1></header>
 
-    <div id="loader">Ładowanie...</div>
+    <div id="loader" class="loader">Ładowanie...</div>
 
-    <main>
+    <main class="content">
       <div class="form">
-        <label id="amountLabel" for="amount">Wprowadź poprawną kwotę</label
+        <label id="amountLabel" class="amountLabel" for="amount">Wprowadź poprawną kwotę</label
         ><br />
         <input
           type="number"
           id="amount"
+          class="amount"
           name="amount"
           placeholder="Wpisz kwotę"
         />
-        <select id="currency"></select>
-        <button id="convert">Przelicz</button>
+        <select id="currency" class="selectCurr"></select>
+        <button id="convert" class="button">Przelicz</button>
         <h4>Na złotówki (PLN)</h4>
         <div class="result">
           <p id="result">Kwota</p>
@@ -31,6 +32,6 @@
       </div>
     </main>
 
-    <footer><p>made by Patryk Bochenek</p></footer>
+    <footer class="footer"><p class="footerP">made by Patryk Bochenek</p></footer>
   </body>
 </html>
