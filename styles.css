@@ -150,6 +150,16 @@ html {
     background: #f7f7f7;
   }
 
+  .amount:hover,
+  .selectCurr:hover {
+    background: #e3e3e3;
+  }
+
+  .amount:focus,
+  .selectCurr:focus {
+    background: #c8c8c8;
+  }
+
   .button:hover {
     background: #313131;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
